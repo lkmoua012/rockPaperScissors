@@ -40,13 +40,11 @@ namespace rockPaperScissors
         }
         static void Main(string[] args)
         {
-            string p1 = "";
-            string p2 = "";
             Console.WriteLine("Player 1 Input: ");
-            p1 = Console.ReadLine();
+            string p1 = Console.ReadLine();
             Console.Clear();
             Console.WriteLine("Player 2 Input: ");
-            p2 = Console.ReadLine();
+            string p2 = Console.ReadLine();
             Console.Clear();
             rps(p1, p2);
             Console.WriteLine("Game over");
